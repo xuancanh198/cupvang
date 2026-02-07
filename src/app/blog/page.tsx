@@ -1,5 +1,4 @@
 import HeroComponent from "@/components/home/HeroComponent";
-import Image from "next/image";
 import ListCardPost from "@/components/card/ListCardPost"
 import ContactSection from '@/components/aboutUs/ContactSection'
 import BlogList from '@/components/aboutUs/BlogList'

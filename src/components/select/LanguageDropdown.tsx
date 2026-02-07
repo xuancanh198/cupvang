@@ -27,6 +27,7 @@ export default function LanguageDropdown() {
       >
         {LANGUAGES.map((l) => (
           <option key={l.code} value={l.code}>
+           <Image src={l.flag} alt={l.name} width={20} height={15} className="inline mr-2"/>
             {l.name}
           </option>
         ))}
