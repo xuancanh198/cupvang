@@ -34,8 +34,8 @@ export default function ProductsPage() {
 
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                            {products.map(product => (
-                                <ProductItem product={product} />
+                            {products.map((product, key) => (
+                                <ProductItem key={key} product={product} />
                             ))}
                         </div>
                     </div>
