@@ -8,10 +8,9 @@ import 'swiper/css/autoplay';
 import Image from 'next/image';
 const banners = [
     "/images/banner.png",
-    "/images/banner.png",
-    "/images/banner.png",
-    "/images/banner.png",
-    "/images/banner.png",
+    "/images/banner-home-1.png",
+    "/images/banner-home-2.jpg",
+    "/images/banner-home-3.jpg",
 ];
 export default function Example() {
     return (
@@ -75,13 +74,11 @@ export default function Example() {
                      mt-4
                     text-[#023E8A]
                     font-medium
-                    text-[20px]
+                    text-[24px]
                     leading-normal
                 "
                 >
-                    Logistics chuyên biệt cho dầu khí – thùng phuy – hạt nhựa:
-                    <br />
-                    An toàn | Đúng tiến độ | Tối ưu chi phí.
+                    Chuyên cung cấp vật tư cho ngành dây và cáp 
                 </p>
 
                 <a
