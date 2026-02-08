@@ -1,9 +1,8 @@
 import Image from 'next/image';
 export default function WhyChooseUs() {
     return (
-        <section className="bg-white py-20">
-            <div className="container mx-auto px-[20px]">
-
+        <section className="bg-white">
+            <div className="w-full max-w-[1500px] mx-auto px-[16px] mx-auto pb-[50px]">
                 {/* HEADER */}
                 <div className="mb-14">
                     <h2 className="text-[48px] text-center font-extrabold italic text-[#0077B6] mb-6">

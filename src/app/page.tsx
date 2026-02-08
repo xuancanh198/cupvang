@@ -14,7 +14,7 @@ export default function Home() {
         <ListProduct />
         <About />    
         <AwardsSection />
-        <div className="mt-[50px]">
+        <div className="mt-[50px] w-full max-w-[1500px] mx-auto px-[16px] mx-auto pb-[50px]">
           <ContactSection />
         </div>  
      </div>

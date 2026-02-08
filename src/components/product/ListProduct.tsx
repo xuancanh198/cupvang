@@ -34,26 +34,30 @@ export default function Example() {
         </div>
 
         {/* ===== SLIDER ===== */}
-        <Swiper
-          modules={[Autoplay]}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          loop
-          spaceBetween={24}
-          breakpoints={{
-            0: { slidesPerView: 1 },
-            640: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
-        >
-          {filteredProducts.map(product => (
-            <SwiperSlide key={product.id}>
-              <ProductItem product={product} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        <div className="min-h-[520px]">
+          <Swiper
+            modules={[Autoplay]}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            loop
+            spaceBetween={24}
+            breakpoints={{
+              0: { slidesPerView: 1 },
+              640: { slidesPerView: 3 },
+              1024: { slidesPerView: 4 },
+            }}
+            className="h-full"
+          >
+            {filteredProducts.map(product => (
+              <SwiperSlide key={product.id} className="h-full">
+                <ProductItem product={product} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+
       </div>
     </div>
   )
