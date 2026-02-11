@@ -1,5 +1,6 @@
 interface Product {
     name: string
+    description: string
     image: string
     price: string
 }
@@ -13,7 +14,7 @@ function DetailPage({ product }: { product: Product }) {
                     {/* IMAGE */}
                     <div className="shrink-0 max-w-md lg:max-w-lg mx-auto">
                         <img
-                            className="w-full"
+                            className="w-full rounded-[20px] shadow-lg ring-1 ring-black ring-opacity-5 dark:ring-white dark:ring-opacity-10"
                             src={product.image}
                             alt={product.name}
                         />
@@ -26,9 +27,15 @@ function DetailPage({ product }: { product: Product }) {
                         </h1>
 
                         <div className="mt-4">
-                            <p className="text-2xl font-extrabold text-gray-900 dark:text-white">
-                                {product.price}
+                            
+                            <p className="text-[16px] font-extrabold text-gray-500 dark:text-white">
+                                {product.description}
                             </p>
+                        </div>
+                        <div className="mt-4">
+                            <button className="mt-6 px-[130px] py-[16px] text-[16px] bg-[#03045E] font-medium text-white  rounded-[26px]">
+                                Liên hệ ngay
+                            </button>
                         </div>
                     </div>
                 </div>

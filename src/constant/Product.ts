@@ -36,7 +36,7 @@ export const categories: CategoryItem[] = [
 
 export const products: Product[] = [
     {
-        id: 6,
+        id: 1,
         name: 'Dầu kéo đồng và nhôm',
         slug: 'dau-keo-dong-va-nhom',
         image: '/images/3501332b63fdd6a38fec.jpg',
@@ -45,7 +45,7 @@ export const products: Product[] = [
         description: 'Dầu bôi trơn chuyên dụng cho quá trình kéo dây đồng và nhôm, giúp giảm ma sát và tăng tuổi thọ thiết bị.',
     },
     {
-        id: 7,
+        id: 2,
         name: 'Thùng phuy thép 55 Gallon (216.5L)',
         slug: 'thung-phuy-thep-55-gallon',
         image: '/images/z6529246731744_a774ad53d199d69e7217e90e7c2c088f.jpg',
@@ -54,7 +54,7 @@ export const products: Product[] = [
         description: 'Thùng phuy thép chất lượng cao, chịu lực tốt, phù hợp chứa hóa chất, dầu và dung môi công nghiệp.',
     },
     {
-        id: 8,
+        id: 3,
         name: 'Hạt nhựa HDPE mạ 8380',
         slug: 'hat-nhua-hdpe-8380',
         image: '/images/cap-mang-boc-nhua-duong-kinh-7.2mm.jpg',
@@ -63,7 +63,7 @@ export const products: Product[] = [
         description: 'Hạt nhựa HDPE độ bền cao, an toàn, được sử dụng phổ biến trong sản xuất bao bì và ống nhựa.',
     },
     {
-        id: 6,
+        id: 4,
         name: 'Dầu kéo đồng và nhôm',
         slug: 'dau-keo-dong-va-nhom',
         image: '/images/3501332b63fdd6a38fec.jpg',
@@ -72,7 +72,7 @@ export const products: Product[] = [
         description: 'Dầu bôi trơn chuyên dụng cho quá trình kéo dây đồng và nhôm, giúp giảm ma sát và tăng tuổi thọ thiết bị.',
     },
     {
-        id: 7,
+        id: 5,
         name: 'Thùng phuy thép 55 Gallon (216.5L)',
         slug: 'thung-phuy-thep-55-gallon',
         image: '/images/z6529246731744_a774ad53d199d69e7217e90e7c2c088f.jpg',
@@ -81,7 +81,7 @@ export const products: Product[] = [
         description: 'Thùng phuy thép chất lượng cao, chịu lực tốt, phù hợp chứa hóa chất, dầu và dung môi công nghiệp.',
     },
     {
-        id: 8,
+        id: 6,
         name: 'Hạt nhựa HDPE mạ 8380',
         slug: 'hat-nhua-hdpe-8380',
         image: '/images/cap-mang-boc-nhua-duong-kinh-7.2mm.jpg',
@@ -90,7 +90,7 @@ export const products: Product[] = [
         description: 'Hạt nhựa HDPE độ bền cao, an toàn, được sử dụng phổ biến trong sản xuất bao bì và ống nhựa.',
     },
     {
-        id: 6,
+        id: 7,
         name: 'Dầu kéo đồng và nhôm',
         slug: 'dau-keo-dong-va-nhom',
         image: '/images/3501332b63fdd6a38fec.jpg',
@@ -99,7 +99,7 @@ export const products: Product[] = [
         description: 'Dầu bôi trơn chuyên dụng cho quá trình kéo dây đồng và nhôm, giúp giảm ma sát và tăng tuổi thọ thiết bị.',
     },
     {
-        id: 7,
+        id: 8,
         name: 'Thùng phuy thép 55 Gallon (216.5L)',
         slug: 'thung-phuy-thep-55-gallon',
         image: '/images/z6529246731744_a774ad53d199d69e7217e90e7c2c088f.jpg',
@@ -108,7 +108,7 @@ export const products: Product[] = [
         description: 'Thùng phuy thép chất lượng cao, chịu lực tốt, phù hợp chứa hóa chất, dầu và dung môi công nghiệp.',
     },
     {
-        id: 8,
+        id: 9,
         name: 'Hạt nhựa HDPE mạ 8380',
         slug: 'hat-nhua-hdpe-8380',
         image: '/images/cap-mang-boc-nhua-duong-kinh-7.2mm.jpg',

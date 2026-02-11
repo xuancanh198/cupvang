@@ -29,7 +29,7 @@ export default function Footer() {
             >
               {/* Logo */}
          
-              <span className="text-[19px] lg:text-[26px] font-black tracking-[1px] lg:tracking-[3px] text-[#45B54D] transition-all duration-300">
+              <span className="text-[19px] lg:text-[26px] font-black tracking-[1px] lg:tracking-[3px] text-[#FFCC00] transition-all duration-300">
                 Cúp Vàng
               </span>
             </Link>

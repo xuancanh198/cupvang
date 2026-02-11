@@ -14,21 +14,25 @@ export default function WhyChooseUs() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
                     <div>
-                        <Image
-                            src="/images/about1.jpg"
-                            alt="Hợp tác kinh doanh"
-                            fill
-                            className=" object-cover rounded-sm mt-4 w-full min-h-[350px]"
-                        />
+                        <div className="relative w-full h-[300px]">
+                            <Image
+                                src="/images/about1.jpg"
+                                alt="Hợp tác kinh doanh"
+                                fill
+                                className="object-cover rounded-xl"
+                            />
+                        </div>
 
-                        <Image
-                            src="/images/about2.jpg"
-                            alt="Hợp tác kinh doanh"
-                            fill
-                            className=" object-cover rounded-sm mt-4 w-full min-h-[350px]"
-                        />
-                       
+                        <div className="relative w-full h-[300px] mt-10">
+                            <Image
+                                src="/images/about2.jpg"
+                                alt="Hợp tác kinh doanh"
+                                fill
+                                className="object-cover rounded-xl"
+                            />
+                        </div>
                     </div>
+
 
                     {/* RIGHT */}
                     <div className="space-y-8">

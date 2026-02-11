@@ -19,11 +19,11 @@ export default function Example() {
                 className="mySwiper z-0"
                 modules={[Autoplay]}
                 autoplay={{
-                    delay: 3000,              // 3s đổi slide
-                    disableOnInteraction: false, // kéo tay vẫn auto chạy tiếp
+                    delay: 3000,
+                    disableOnInteraction: false,
                 }}
-                loop={true} // chạy vòng lặp
-            > 
+                loop={true}
+            >
                 {banners.map((banner, index) => (
                     <SwiperSlide key={index}>
                         <div className="relative w-full min-h-[550px]">
@@ -36,7 +36,7 @@ export default function Example() {
                             />
                         </div>
                     </SwiperSlide>
-                ))}              
+                ))}
             </Swiper>
             {/* HERO BOX */}
             <div
@@ -45,10 +45,8 @@ export default function Example() {
           left-[5vw]
           -translate-y-1/2
           z-20
-
           bg-[#FBBC05CC]
           rounded-[20px]
-
           w-[35vw]
           max-w-[520px]
           min-w-[280px]
@@ -58,13 +56,13 @@ export default function Example() {
             >
                 <h1
                     className="
-            font-bebas-neue
-            uppercase
-            font-black
-            text-[#03045E]
-            leading-none
-            text-[clamp(36px,4vw,64px)]
-          "
+                        font-bebas-neue
+                        uppercase
+                        font-black
+                        text-[#03045E]
+                        leading-none
+                        text-[24px] md:text-[32px] xl:text-[48px]
+                    "
                 >
                     Goldcup
                 </h1>
@@ -74,11 +72,11 @@ export default function Example() {
                      mt-4
                     text-[#023E8A]
                     font-medium
-                    text-[24px]
+                    text-[16px] md:text-[20px] xl:text-[24px]
                     leading-normal
                 "
                 >
-                    Chuyên cung cấp vật tư cho ngành dây và cáp 
+                    Chuyên cung cấp vật tư cho ngành dây và cáp
                 </p>
 
                 <a
@@ -86,14 +84,14 @@ export default function Example() {
                     className="
                 inline-block
                 mt-8
-                px-[clamp(20px,2.5vw,36px)]
-                py-[clamp(10px,1.5vw,14px)]
-                rounded-[30px]
+                px-[12px] md:px-[16px] xl:px-[24px]
+                 py-[8px] md:py-[10px] xl:py-[12px]
+                 rounded-[20px] md:rounded-[30px]
                 bg-[#03045E]
                 text-white
                 uppercase
-                text-[clamp(14px,1.2vw,18px)]
                 hover:bg-orange-500
+                 text-[14px] md:text-[16px] xl:text-[20px]
           "
                 >
                     Liên hệ ngay

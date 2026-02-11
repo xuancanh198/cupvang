@@ -10,9 +10,9 @@ export default function ProductsPage() {
 
 
     return (
-        <main className="w-full z">
+        <main className="w-full z-0">
             <HeroComponent />
-            <div className="w-full my-[100px] mx-auto px-[16px]">
+            <div className="mt-[50px] w-full max-w-[1500px] mx-auto px-[16px]  pb-[50px]">
                 <div className="flex gap-[50px] w-full">
                     <div className="w-full">
                         <div className="flex justify-center w-full">

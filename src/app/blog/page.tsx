@@ -7,7 +7,7 @@ function page() {
   return (
     <main className="w-full">
       <HeroComponent />
-      <div className="w-full my-[100px] mx-auto px-[16px]">
+      <div className="w-full max-w-[1500px] mx-auto px-[16px] my-[100px]">
         <div className="flex gap-[50px]">
           <div className="">
             <ListBlog/>

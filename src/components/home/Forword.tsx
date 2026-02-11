@@ -2,14 +2,14 @@ import Image from "next/image"
 export default function Forword() {
     return (
         <section className="bg-[#CAF0F8] dark:bg-gray-800 relative z-20 overflow-hidden">
-            <div className="w-full max-w-[1500px] mx-auto px-[16px] py-20 flex flex-col gap-[20px] lg:flex-row items-center">
+            <div className="w-full max-w-[1500px] mx-auto px-[16px] py-20 flex flex-col gap-[40px] lg:flex-row items-center">
 
                 {/* IMAGE */}
-                <div className="w-full lg:w-1/2 mt-12 lg:mt-0 flex justify-center">
+                <div className="w-full lg:w-1/2 mt-12  lg:mt-0 flex justify-center">
                     <Image
                         src="/images/banner1.png"
                         alt="Introducing Our Work"
-                        className="w-full h-auto"
+                        className="w-full h-auto rounded-[20px]"
                         width={808}
                         height={553}
                     />
