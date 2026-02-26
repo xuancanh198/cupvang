@@ -14,7 +14,7 @@ const banners = [
 ];
 export default function Example() {
     return (
-        <div className="relative z-0 w-full min-h-screen overflow-hidden">
+        <div className="relative z-0 w-full min-h-[300px] md:min-h-screen overflow-hidden">
             <Swiper
                 className="mySwiper z-0"
                 modules={[Autoplay]}
@@ -26,7 +26,7 @@ export default function Example() {
             >
                 {banners.map((banner, index) => (
                     <SwiperSlide key={index}>
-                        <div className="relative w-full min-h-[550px]">
+                        <div className="relative w-full  min-h-[300px] md:min-h-[550px]">
                             <Image
                                 src={banner}
                                 alt={`Banner ${index + 1}`}
@@ -43,12 +43,15 @@ export default function Example() {
                 className="
           absolute top-1/2
           left-[5vw]
+        right-[5vw]
           -translate-y-1/2
           z-20
           bg-[#FBBC05CC]
           rounded-[20px]
-          w-[35vw]
-          max-w-[520px]
+          w-full
+          md:w-[35vw]
+          max-w-[90vw]
+          md:max-w-[520px]
           min-w-[280px]
 
           p-[clamp(20px,3vw,40px)]
