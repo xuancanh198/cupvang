@@ -35,7 +35,7 @@ export default function WhyChooseUs() {
                     <div>
                         <div className="relative w-full h-[300px]">
                             <Image
-                                src="/images/about1.jpg"
+                                src="/images/about1.png"
                                 alt="Hợp tác kinh doanh"
                                 fill
                                 className="object-cover rounded-xl"
@@ -44,7 +44,7 @@ export default function WhyChooseUs() {
 
                         <div className="relative w-full h-[300px] mt-10">
                             <Image
-                                src="/images/about2.jpg"
+                                src="/images/about2.png"
                                 alt="Hợp tác kinh doanh"
                                 fill
                                 className="object-cover rounded-xl"
